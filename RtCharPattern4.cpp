@@ -14,8 +14,8 @@ char start ='A';
         int j = 1;
          while (j<=i)
          {
-            cout<<start<<" ";
-            start = start + 1;
+             char ch = n + i + j -2;
+            cout<<ch<<" ";
             j = j+1;
          }
          cout<<endl;
@@ -23,5 +23,3 @@ char start ='A';
 
     }
 }
-
-
