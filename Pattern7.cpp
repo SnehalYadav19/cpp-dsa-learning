@@ -11,8 +11,8 @@ int main()
 
     while (i <= n)
     {
-        int space = n - i;
-        while (space > 0)
+        int space =n - i + 1 ;
+        while (space)
         {
             cout << " ";
             space = space - 1;
