@@ -26,4 +26,7 @@ cout<<(i--)<<endl;
 //9 , i = 8
 cout<<(--i)<<endl;
 //7 , i=7;
+
+//5 Hw Ques
+
 }
