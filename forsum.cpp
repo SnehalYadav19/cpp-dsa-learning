@@ -9,8 +9,8 @@ int main () {
     int sum = 0;
 
     for( int i = 1; i<=n; i++) {
-        //sum =sum + 1;
         sum+=i;
+        //sum =sum + 1;
 
     }
     cout<<sum <<endl;
