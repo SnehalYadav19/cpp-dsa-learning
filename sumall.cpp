@@ -13,6 +13,6 @@ int main () {
         // cout<<i<<endl;
         sum=sum + i;
         i++;
-        cout << sum << endl;
     }
+    cout << sum << endl;
 }
