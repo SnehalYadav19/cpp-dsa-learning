@@ -11,6 +11,9 @@ int main () {
     int i=1;
     while(i<=n) {
         // cout<<i<<endl;
+        cout<<n<<endl;
+        i++;
+         
         sum=sum + i;
         i++;
     }
