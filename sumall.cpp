@@ -5,17 +5,20 @@ int main () {
     int n;
     cout<<"Enter the value of n" << endl;
     cin>>n;
-  
-
-    int sum=0;
-    int i=1;
-    while(i<=n) {
-        // cout<<i<<endl;
-        cout<<n<<endl;
-        i++;
-         
+     
+    int i=1,sum=0;
+    do{
+        cout<<i<<endl<< " ";
         sum=sum + i;
         i++;
     }
-    cout << sum << endl;
+    while (i<=n);
+    
+        cout<<"The Sum of all the values entere"<<sum ;
+
+        return 0;
+    
+    
+
+
 }
