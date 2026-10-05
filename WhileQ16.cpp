@@ -3,16 +3,20 @@ using namespace std;
 
 int main()
 {
-    int n = 2;
+    int n;
+    cin >> n;
 
-    while (n <= 100)
+    int num = 2;
+
+    while (num <= n)
     {
-        int i = 2;
         bool isPrime = true;
 
-        while (i < n)
+        int i = 2;
+
+        while (i < num)
         {
-            if (n % i == 0)
+            if (num % i == 0)
             {
                 isPrime = false;
                 break;
@@ -21,12 +25,12 @@ int main()
             i++;
         }
 
-        if (isPrime)
+        if (isPrime == true)
         {
-            cout << n << " ";
+            cout << num << " ";
         }
 
-        n++;
+        num++;
     }
 
     return 0;
