@@ -1,19 +1,20 @@
 #include <iostream>
 using namespace std;
 
-int main () {
-    int a,b;
-    cout<<"Enter the value of a & b :" <<endl;
-    cin >>a>>b;
+int main() {
+    int num;
+    cout << "Enter a positive integer: ";
+    cin >> num;
+    int sum =0;
 
-    int sum=0;
-    while(a<=b) {
-        if(a%8==0) {
-            cout<<a<<endl;
-            sum += a;
+    cout << "Factors of " << num << " are: ";
+    for (int i = 1; i <= num; ++i) {
+        if (num % i == 0) {
+            cout << i << " ";
+            sum = sum + i;
         }
-        a++;
     }
-    cout<<"Sum of even numbers between a & b is :"<<sum<<endl;
+    cout <<"sum of given factors :"<<sum<< endl;
+
     return 0;
 }
