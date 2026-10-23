@@ -12,8 +12,14 @@ int main () {
   cin>>x;
 
   long long x =15000000000;
-  
 
+
+
+  // float , double
+  float x =5.6;
+  float y = 5;
+
+  cout <<" value of y: "<<y;
 
     return 0;
 }
