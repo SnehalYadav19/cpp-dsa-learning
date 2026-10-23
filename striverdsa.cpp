@@ -4,9 +4,16 @@
 using namespace std;
 
 int main () {
-   int x,y;
-   cin>>x>>y;
-   cout<<"value of x is:"<< x <<"  and value of y is:"<< y;
+  //int 
+  int x = 10;
+
+  //long
+  long  x =15;
+  cin>>x;
+
+  long long x =15000000000;
+  
+
 
     return 0;
 }
