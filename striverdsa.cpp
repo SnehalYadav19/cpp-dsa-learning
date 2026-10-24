@@ -23,7 +23,7 @@ int main()
   // write a program that takes an input of your age
   // and prints if you are adult or not
 
-  int age;
+ /* int age;
   cout << "Enter your age:  ";
   cin >> age;
 
@@ -36,6 +36,6 @@ int main()
   {
     cout << "you are not an adult";
   }
-
+*/
   return 0;
 }
