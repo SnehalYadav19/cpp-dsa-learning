@@ -4,22 +4,12 @@
 using namespace std;
 
 int main () {
-  //int 
-  int x = 10;
+ // int , long , long long ,float , double
+ //string and getline
 
-  //long
-  long  x =15;
-  cin>>x;
-
-  long long x =15000000000;
-
-
-
-  // float , double
-  float x =5.6;
-  float y = 5;
-
-  cout <<" value of y: "<<y;
+ string s,s2;
+ cin>>s>>s2;
+ cout<<s<<" "<<s2;
 
     return 0;
 }
