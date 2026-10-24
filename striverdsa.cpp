@@ -7,9 +7,17 @@ int main () {
  // int , long , long long ,float , double
  //string and getline
 
- string s,s2;
- cin>>s>>s2;
- cout<<s<<" "<<s2;
+//  string s,s2;
+//  cin>>s>>s2;
+//  cout<<s<<" "<<s2;
+
+string str;
+getline(cin, str);
+cout <<str;
+
+// to print variables with space in a single line.
+
+
 
     return 0;
 }
