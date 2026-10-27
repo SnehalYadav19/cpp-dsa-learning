@@ -15,7 +15,7 @@ int main () {
             cout << "a is greater than b" << endl;
         }
 
-        else {
+        else if {
             cout << "a is equal to b" << endl;
         }
 
